@@ -1,0 +1,64 @@
+[2026-02-25T23:29:05.423-0500] {processor.py:161} INFO - Started process (PID=90352) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:29:05.424-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-02-25T23:29:05.426-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:29:05.425-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:29:05.436-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:29:05.435-0500] {example_python_operator.py:88} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-02-25T23:29:05.436-0500] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:29:05.456-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:29:05.456-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:29:05.478-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:29:05.478-0500] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-02-25T23:29:05.498-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.081 seconds
+[2026-02-25T23:29:59.021-0500] {processor.py:161} INFO - Started process (PID=90495) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:29:59.023-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-02-25T23:29:59.024-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:29:59.023-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:29:59.186-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:29:59.185-0500] {example_python_operator.py:88} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-02-25T23:29:59.186-0500] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:29:59.252-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:29:59.252-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:29:59.258-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:29:59.258-0500] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-02-25T23:29:59.274-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.259 seconds
+[2026-02-25T23:30:43.732-0500] {processor.py:161} INFO - Started process (PID=90572) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:30:43.734-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-02-25T23:30:43.736-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:30:43.735-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:30:43.747-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:30:43.747-0500] {example_python_operator.py:88} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-02-25T23:30:43.748-0500] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:30:43.773-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:30:43.773-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:30:43.785-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:30:43.784-0500] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-02-25T23:30:43.803-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.077 seconds
+[2026-02-25T23:31:38.886-0500] {processor.py:161} INFO - Started process (PID=90651) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:31:38.888-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-02-25T23:31:38.889-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:31:38.889-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:31:38.901-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:31:38.900-0500] {example_python_operator.py:88} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-02-25T23:31:38.901-0500] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:31:38.926-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:31:38.926-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:31:38.938-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:31:38.938-0500] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-02-25T23:31:38.956-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.077 seconds
+[2026-02-25T23:32:27.902-0500] {processor.py:161} INFO - Started process (PID=91255) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:32:27.903-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-02-25T23:32:27.905-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:32:27.904-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:32:27.916-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:32:27.915-0500] {example_python_operator.py:88} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-02-25T23:32:27.916-0500] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:32:27.939-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:32:27.939-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:32:27.950-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:32:27.950-0500] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-02-25T23:32:27.968-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2026-02-25T23:33:17.480-0500] {processor.py:161} INFO - Started process (PID=91326) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:33:17.482-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-02-25T23:33:17.484-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:33:17.483-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:33:17.494-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:33:17.494-0500] {example_python_operator.py:88} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-02-25T23:33:17.495-0500] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:33:17.517-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:33:17.517-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:33:17.528-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:33:17.528-0500] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-02-25T23:33:17.547-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2026-02-25T23:34:07.265-0500] {processor.py:161} INFO - Started process (PID=91392) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:34:07.268-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-02-25T23:34:07.269-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:34:07.268-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:34:07.279-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:34:07.279-0500] {example_python_operator.py:88} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-02-25T23:34:07.280-0500] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:34:07.304-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:34:07.304-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:34:07.317-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:34:07.316-0500] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-02-25T23:34:07.334-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.075 seconds
+[2026-02-25T23:34:58.729-0500] {processor.py:161} INFO - Started process (PID=91467) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:34:58.731-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-02-25T23:34:58.732-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:34:58.731-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:34:58.743-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:34:58.743-0500] {example_python_operator.py:88} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-02-25T23:34:58.743-0500] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-25T23:34:58.766-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:34:58.766-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:34:58.778-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:34:58.778-0500] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-02-25T23:34:58.795-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds

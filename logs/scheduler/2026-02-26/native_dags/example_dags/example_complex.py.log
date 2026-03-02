@@ -1,0 +1,49 @@
+[2026-02-25T23:29:21.978-0500] {processor.py:161} INFO - Started process (PID=90388) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2026-02-25T23:29:21.979-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-02-25T23:29:21.980-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:29:21.980-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2026-02-25T23:29:21.991-0500] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2026-02-25T23:29:22.195-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:29:22.195-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:29:22.202-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:29:22.202-0500] {dag.py:3834} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-02-25T23:29:22.218-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.245 seconds
+[2026-02-25T23:30:13.269-0500] {processor.py:161} INFO - Started process (PID=90525) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2026-02-25T23:30:13.271-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-02-25T23:30:13.272-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:30:13.271-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2026-02-25T23:30:13.284-0500] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2026-02-25T23:30:13.313-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:30:13.313-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:30:13.324-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:30:13.324-0500] {dag.py:3834} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-02-25T23:30:13.343-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.080 seconds
+[2026-02-25T23:31:09.382-0500] {processor.py:161} INFO - Started process (PID=90603) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2026-02-25T23:31:09.384-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-02-25T23:31:09.386-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:31:09.385-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2026-02-25T23:31:09.399-0500] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2026-02-25T23:31:09.428-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:31:09.427-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:31:09.440-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:31:09.439-0500] {dag.py:3834} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-02-25T23:31:09.457-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.081 seconds
+[2026-02-25T23:32:03.705-0500] {processor.py:161} INFO - Started process (PID=91191) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2026-02-25T23:32:03.707-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-02-25T23:32:03.708-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:32:03.708-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2026-02-25T23:32:03.720-0500] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2026-02-25T23:32:03.749-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:32:03.749-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:32:03.761-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:32:03.761-0500] {dag.py:3834} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-02-25T23:32:03.778-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.079 seconds
+[2026-02-25T23:32:52.859-0500] {processor.py:161} INFO - Started process (PID=91288) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2026-02-25T23:32:52.861-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-02-25T23:32:52.863-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:32:52.862-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2026-02-25T23:32:52.874-0500] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2026-02-25T23:32:52.903-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:32:52.903-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:32:52.918-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:32:52.918-0500] {dag.py:3834} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-02-25T23:32:52.939-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.086 seconds
+[2026-02-25T23:33:45.073-0500] {processor.py:161} INFO - Started process (PID=91362) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2026-02-25T23:33:45.075-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-02-25T23:33:45.076-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:33:45.075-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2026-02-25T23:33:45.088-0500] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2026-02-25T23:33:45.117-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:33:45.116-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:33:45.128-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:33:45.128-0500] {dag.py:3834} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-02-25T23:33:45.148-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.083 seconds
+[2026-02-25T23:34:35.526-0500] {processor.py:161} INFO - Started process (PID=91430) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2026-02-25T23:34:35.528-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-02-25T23:34:35.529-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:34:35.528-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2026-02-25T23:34:35.540-0500] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2026-02-25T23:34:35.568-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:34:35.568-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:34:35.579-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:34:35.579-0500] {dag.py:3834} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-02-25T23:34:35.599-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.080 seconds

@@ -1,0 +1,217 @@
+[2026-03-01T20:50:04.159-0500] {processor.py:161} INFO - Started process (PID=25849) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:50:04.159-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T20:50:04.160-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:50:04.160-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:50:04.167-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:50:04.172-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:50:04.172-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T20:50:04.185-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:50:04.185-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-01T20:50:04.196-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.040 seconds
+[2026-03-01T20:50:35.214-0500] {processor.py:161} INFO - Started process (PID=26163) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:50:35.215-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T20:50:35.215-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:50:35.215-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:50:35.222-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:50:35.273-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:50:35.273-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T20:50:35.359-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:50:35.359-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T20:50:35.397-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.184 seconds
+[2026-03-01T20:51:06.302-0500] {processor.py:161} INFO - Started process (PID=26315) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:51:06.304-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T20:51:06.304-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:51:06.304-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:51:06.311-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:51:06.325-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:51:06.325-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T20:51:06.337-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:51:06.337-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T20:51:06.349-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.048 seconds
+[2026-03-01T20:51:37.391-0500] {processor.py:161} INFO - Started process (PID=26455) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:51:37.392-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T20:51:37.392-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:51:37.392-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:51:37.399-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:51:37.411-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:51:37.411-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T20:51:37.420-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:51:37.420-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T20:51:37.432-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.043 seconds
+[2026-03-01T20:52:07.987-0500] {processor.py:161} INFO - Started process (PID=26539) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:52:07.988-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T20:52:07.989-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:52:07.989-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:52:07.996-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:52:08.009-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:52:08.008-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T20:52:08.019-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:52:08.019-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T20:52:08.030-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.044 seconds
+[2026-03-01T20:52:38.251-0500] {processor.py:161} INFO - Started process (PID=26744) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:52:38.253-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T20:52:38.254-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:52:38.254-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:52:38.262-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:52:38.275-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:52:38.275-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T20:52:38.284-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:52:38.284-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T20:52:38.294-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.045 seconds
+[2026-03-01T20:53:08.512-0500] {processor.py:161} INFO - Started process (PID=26800) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:53:08.513-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T20:53:08.513-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:53:08.513-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:53:08.520-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:53:08.532-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:53:08.531-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T20:53:08.540-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:53:08.540-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T20:53:08.550-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.039 seconds
+[2026-03-01T20:53:38.673-0500] {processor.py:161} INFO - Started process (PID=26952) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:53:38.674-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T20:53:38.675-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:53:38.674-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:53:38.680-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:53:38.695-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:53:38.694-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T20:53:38.705-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:53:38.705-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T20:53:38.714-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.043 seconds
+[2026-03-01T20:56:54.504-0500] {processor.py:161} INFO - Started process (PID=27168) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:56:54.505-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T20:56:54.506-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:56:54.506-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:56:54.513-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:56:54.520-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:56:54.520-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T20:56:54.533-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:56:54.533-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T20:56:54.546-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.043 seconds
+[2026-03-01T20:57:24.610-0500] {processor.py:161} INFO - Started process (PID=27377) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:57:24.611-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T20:57:24.612-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:57:24.611-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:57:24.618-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:57:24.663-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:57:24.663-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T20:57:24.734-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:57:24.734-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T20:57:24.744-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.136 seconds
+[2026-03-01T20:57:54.967-0500] {processor.py:161} INFO - Started process (PID=27482) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:57:54.968-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T20:57:54.968-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:57:54.968-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:57:54.975-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:57:54.989-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:57:54.988-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T20:57:54.998-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:57:54.998-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T20:57:55.008-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.043 seconds
+[2026-03-01T20:58:25.226-0500] {processor.py:161} INFO - Started process (PID=27537) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:58:25.227-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T20:58:25.227-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:58:25.227-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:58:25.234-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:58:25.246-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:58:25.246-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T20:58:25.257-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:58:25.257-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T20:58:25.268-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.045 seconds
+[2026-03-01T20:58:55.482-0500] {processor.py:161} INFO - Started process (PID=27547) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:58:55.484-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T20:58:55.484-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:58:55.484-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:58:55.491-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:58:55.506-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:58:55.505-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T20:58:55.515-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:58:55.515-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T20:58:55.525-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.046 seconds
+[2026-03-01T20:59:25.745-0500] {processor.py:161} INFO - Started process (PID=27602) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:59:25.746-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T20:59:25.747-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:59:25.746-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:59:25.754-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:59:25.767-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:59:25.767-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T20:59:25.778-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:59:25.777-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T20:59:25.788-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.044 seconds
+[2026-03-01T20:59:56.009-0500] {processor.py:161} INFO - Started process (PID=27631) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:59:56.010-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T20:59:56.010-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:59:56.010-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:59:56.017-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T20:59:56.031-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:59:56.031-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T20:59:56.040-0500] {logging_mixin.py:188} INFO - [2026-03-01T20:59:56.040-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T20:59:56.050-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.044 seconds
+[2026-03-01T21:00:26.263-0500] {processor.py:161} INFO - Started process (PID=27723) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:00:26.264-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T21:00:26.264-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:00:26.264-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:00:26.271-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:00:26.283-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:00:26.283-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T21:00:26.291-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:00:26.291-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T21:00:26.301-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.040 seconds
+[2026-03-01T21:00:56.525-0500] {processor.py:161} INFO - Started process (PID=27755) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:00:56.526-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T21:00:56.527-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:00:56.527-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:00:56.533-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:00:56.545-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:00:56.545-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T21:00:56.555-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:00:56.555-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T21:00:56.565-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.042 seconds
+[2026-03-01T21:01:26.783-0500] {processor.py:161} INFO - Started process (PID=27838) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:01:26.783-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T21:01:26.784-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:01:26.784-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:01:26.790-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:01:26.803-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:01:26.803-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T21:01:26.812-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:01:26.812-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T21:01:26.888-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.107 seconds
+[2026-03-01T21:01:57.115-0500] {processor.py:161} INFO - Started process (PID=28048) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:01:57.116-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T21:01:57.117-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:01:57.117-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:01:57.124-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:01:57.138-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:01:57.138-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T21:01:57.224-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:01:57.224-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T21:01:57.234-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.121 seconds
+[2026-03-01T21:02:27.474-0500] {processor.py:161} INFO - Started process (PID=28198) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:02:27.475-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T21:02:27.476-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:02:27.475-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:02:27.482-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:02:27.493-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:02:27.493-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T21:02:27.567-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:02:27.567-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T21:02:27.575-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.103 seconds
+[2026-03-01T21:02:57.837-0500] {processor.py:161} INFO - Started process (PID=28262) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:02:57.838-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T21:02:57.838-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:02:57.838-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:02:57.844-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:02:57.920-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:02:57.919-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T21:02:57.927-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:02:57.927-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T21:02:57.936-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.101 seconds
+[2026-03-01T21:03:28.200-0500] {processor.py:161} INFO - Started process (PID=28387) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:03:28.200-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T21:03:28.201-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:03:28.200-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:03:28.208-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:03:28.283-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:03:28.283-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T21:03:28.291-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:03:28.291-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T21:03:28.300-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.102 seconds
+[2026-03-01T21:03:58.566-0500] {processor.py:161} INFO - Started process (PID=28664) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:03:58.567-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T21:03:58.568-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:03:58.568-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:03:58.651-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:03:58.660-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:03:58.660-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T21:03:58.668-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:03:58.668-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T21:03:58.676-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.112 seconds
+[2026-03-01T21:04:28.977-0500] {processor.py:161} INFO - Started process (PID=28670) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:04:28.978-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T21:04:28.979-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:04:28.978-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:04:28.985-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:04:28.998-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:04:28.997-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T21:04:29.006-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:04:29.006-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T21:04:29.016-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.041 seconds
+[2026-03-01T21:04:59.249-0500] {processor.py:161} INFO - Started process (PID=28727) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:04:59.250-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T21:04:59.251-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:04:59.250-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:04:59.258-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:04:59.271-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:04:59.271-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T21:04:59.281-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:04:59.281-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T21:04:59.292-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.045 seconds
+[2026-03-01T21:05:29.516-0500] {processor.py:161} INFO - Started process (PID=28738) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:05:29.517-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T21:05:29.518-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:05:29.517-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:05:29.524-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:05:29.538-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:05:29.538-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T21:05:29.547-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:05:29.547-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T21:05:29.557-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.043 seconds
+[2026-03-01T21:05:59.676-0500] {processor.py:161} INFO - Started process (PID=28797) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:05:59.677-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T21:05:59.678-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:05:59.677-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:05:59.684-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:05:59.697-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:05:59.697-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T21:05:59.707-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:05:59.707-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T21:05:59.718-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.044 seconds
+[2026-03-01T21:06:29.940-0500] {processor.py:161} INFO - Started process (PID=28803) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:06:29.941-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T21:06:29.941-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:06:29.941-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:06:29.947-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:06:29.960-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:06:29.960-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T21:06:29.969-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:06:29.969-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T21:06:29.979-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.041 seconds
+[2026-03-01T21:07:00.580-0500] {processor.py:161} INFO - Started process (PID=28865) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:07:00.581-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T21:07:00.582-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:07:00.581-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:07:00.590-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:07:00.604-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:07:00.604-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T21:07:00.616-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:07:00.616-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T21:07:00.634-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.057 seconds
+[2026-03-01T21:07:30.742-0500] {processor.py:161} INFO - Started process (PID=28934) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:07:30.744-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T21:07:30.744-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:07:30.744-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:07:30.751-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:07:30.763-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:07:30.763-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T21:07:30.774-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:07:30.774-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T21:07:30.786-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.048 seconds
+[2026-03-01T21:08:00.902-0500] {processor.py:161} INFO - Started process (PID=28992) to work on /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:08:00.903-0500] {processor.py:830} INFO - Processing file /home/dawson/airflow/dags/test_dag.py for tasks to queue
+[2026-03-01T21:08:00.904-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:08:00.903-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:08:00.911-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/dawson/airflow/dags/test_dag.py
+[2026-03-01T21:08:00.924-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:08:00.924-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-01T21:08:00.934-0500] {logging_mixin.py:188} INFO - [2026-03-01T21:08:00.934-0500] {dag.py:3834} INFO - Setting next_dagrun for tutorial to 2026-03-02 00:00:00+00:00, run_after=2026-03-03 00:00:00+00:00
+[2026-03-01T21:08:00.945-0500] {processor.py:183} INFO - Processing /home/dawson/airflow/dags/test_dag.py took 0.045 seconds

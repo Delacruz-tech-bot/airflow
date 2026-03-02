@@ -1,0 +1,49 @@
+[2026-02-25T23:29:08.286-0500] {processor.py:161} INFO - Started process (PID=90356) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-02-25T23:29:08.288-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-02-25T23:29:08.289-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:29:08.288-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-02-25T23:29:08.310-0500] {processor.py:840} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-02-25T23:29:08.327-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:29:08.326-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:29:08.346-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:29:08.346-0500] {dag.py:3834} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-02-25T23:29:08.364-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.083 seconds
+[2026-02-25T23:30:02.701-0500] {processor.py:161} INFO - Started process (PID=90500) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-02-25T23:30:02.703-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-02-25T23:30:02.705-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:30:02.704-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-02-25T23:30:02.725-0500] {processor.py:840} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-02-25T23:30:02.832-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:30:02.831-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:30:02.841-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:30:02.840-0500] {dag.py:3834} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-02-25T23:30:02.858-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.164 seconds
+[2026-02-25T23:30:46.182-0500] {processor.py:161} INFO - Started process (PID=90575) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-02-25T23:30:46.184-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-02-25T23:30:46.186-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:30:46.185-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-02-25T23:30:46.205-0500] {processor.py:840} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-02-25T23:30:46.245-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:30:46.245-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:30:46.257-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:30:46.256-0500] {dag.py:3834} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-02-25T23:30:46.276-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.101 seconds
+[2026-02-25T23:31:41.743-0500] {processor.py:161} INFO - Started process (PID=90657) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-02-25T23:31:41.745-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-02-25T23:31:41.746-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:31:41.746-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-02-25T23:31:41.765-0500] {processor.py:840} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-02-25T23:31:41.803-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:31:41.802-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:31:41.814-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:31:41.814-0500] {dag.py:3834} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-02-25T23:31:41.833-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.097 seconds
+[2026-02-25T23:32:30.517-0500] {processor.py:161} INFO - Started process (PID=91258) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-02-25T23:32:30.519-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-02-25T23:32:30.520-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:32:30.520-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-02-25T23:32:30.538-0500] {processor.py:840} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-02-25T23:32:30.575-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:32:30.575-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:32:30.586-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:32:30.586-0500] {dag.py:3834} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-02-25T23:32:30.604-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.094 seconds
+[2026-02-25T23:33:20.906-0500] {processor.py:161} INFO - Started process (PID=91329) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-02-25T23:33:20.908-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-02-25T23:33:20.909-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:33:20.909-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-02-25T23:33:20.926-0500] {processor.py:840} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-02-25T23:33:20.966-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:33:20.965-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:33:20.977-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:33:20.977-0500] {dag.py:3834} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-02-25T23:33:20.994-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.094 seconds
+[2026-02-25T23:34:09.306-0500] {processor.py:161} INFO - Started process (PID=91395) to work on /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-02-25T23:34:09.308-0500] {processor.py:830} INFO - Processing file /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-02-25T23:34:09.310-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:34:09.309-0500] {dagbag.py:540} INFO - Filling up the DagBag from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-02-25T23:34:09.330-0500] {processor.py:840} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-02-25T23:34:09.368-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:34:09.368-0500] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-25T23:34:09.379-0500] {logging_mixin.py:188} INFO - [2026-02-25T23:34:09.378-0500] {dag.py:3834} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-02-25T23:34:09.396-0500] {processor.py:183} INFO - Processing /home/dawson/miniconda3/envs/snc_dev/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.097 seconds
