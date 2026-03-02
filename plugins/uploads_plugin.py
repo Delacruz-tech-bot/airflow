@@ -7,6 +7,7 @@ from flask import Blueprint, send_from_directory, request, flash, redirect, url_
 from werkzeug.utils import secure_filename
 
 UPLOADS_DIR = os.path.join(os.path.expanduser("~"), "airflow", "uploads")
+ALLOWED_EXTENSIONS = {".csv", ".xls", ".xlsx"}
 PER_PAGE = 10
 
 # Ensure uploads directory exists
@@ -88,6 +89,12 @@ class UploadsView(AppBuilderBaseView):
         filename = secure_filename(uploaded.filename)
         if not filename:
             flash("Invalid filename.", "danger")
+            return redirect(url_for("UploadsView.list_files"))
+
+        ext = os.path.splitext(filename)[1].lower()
+        if ext not in ALLOWED_EXTENSIONS:
+            allowed = ", ".join(sorted(ALLOWED_EXTENSIONS))
+            flash(f"File type '{ext}' not allowed. Accepted types: {allowed}", "danger")
             return redirect(url_for("UploadsView.list_files"))
 
         uploaded.save(os.path.join(UPLOADS_DIR, filename))

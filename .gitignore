@@ -2,3 +2,8 @@
 .ipynb_checkpoints/webserver_config-checkpoint.py
 /logs
 /uploads
+plugins/__pycache__
+airflow-webserver.pid
+airflow-scheduler.pid
+
+plugins/__pycache__/uploads_plugin.cpython-39.pyc
