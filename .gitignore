@@ -1,1 +1,4 @@
 /airflow.db
+.ipynb_checkpoints/webserver_config-checkpoint.py
+/logs
+/uploads

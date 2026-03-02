@@ -1,0 +1,131 @@
+{% extends "airflow/main.html" %}
+
+{% block content %}
+<h2>Uploads ({{ total_files }} files)</h2>
+
+<style>
+  .upload-form {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .upload-form input[type="file"] {
+    flex: 1;
+  }
+  .sort-header {
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+  .sort-header:hover {
+    text-decoration: underline;
+  }
+  .sort-arrow {
+    font-size: 0.75em;
+    margin-left: 4px;
+  }
+</style>
+
+<!-- Upload Form -->
+<form class="upload-form" action="{{ url_for('UploadsView.upload_file') }}" method="POST" enctype="multipart/form-data">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+  <label for="file"><strong>Upload a file:</strong></label>
+  <input type="file" name="file" id="file" required />
+  <button type="submit" class="btn btn-success btn-sm">Upload</button>
+</form>
+
+<!-- Flash messages -->
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    {% for category, message in messages %}
+    <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+      {{ message }}
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    {% endfor %}
+  {% endif %}
+{% endwith %}
+
+<!-- File listing table -->
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th class="sort-header">
+        <a href="{{ url_for('UploadsView.list_files', sort_by='name', sort_dir='desc' if sort_by == 'name' and sort_dir == 'asc' else 'asc', page=1) }}">
+          File Name
+          {% if sort_by == 'name' %}
+            <span class="sort-arrow">{{ '▲' if sort_dir == 'asc' else '▼' }}</span>
+          {% endif %}
+        </a>
+      </th>
+      <th class="sort-header">
+        <a href="{{ url_for('UploadsView.list_files', sort_by='size', sort_dir='desc' if sort_by == 'size' and sort_dir == 'asc' else 'asc', page=1) }}">
+          Size
+          {% if sort_by == 'size' %}
+            <span class="sort-arrow">{{ '▲' if sort_dir == 'asc' else '▼' }}</span>
+          {% endif %}
+        </a>
+      </th>
+      <th class="sort-header">
+        <a href="{{ url_for('UploadsView.list_files', sort_by='created', sort_dir='desc' if sort_by == 'created' and sort_dir == 'asc' else 'asc', page=1) }}">
+          Created
+          {% if sort_by == 'created' %}
+            <span class="sort-arrow">{{ '▲' if sort_dir == 'asc' else '▼' }}</span>
+          {% endif %}
+        </a>
+      </th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for file in files %}
+    <tr>
+      <td>{{ (page - 1) * 10 + loop.index }}</td>
+      <td>{{ file.name }}</td>
+      <td>{{ file.size }}</td>
+      <td>{{ file.created }}</td>
+      <td>
+        <a href="{{ url_for('UploadsView.download_file', filename=file.name) }}" class="btn btn-primary btn-sm">
+          Download
+        </a>
+        <form style="display:inline;" action="{{ url_for('UploadsView.delete_file', filename=file.name) }}" method="POST"
+              onsubmit="return confirm('Delete {{ file.name }}?');">
+          <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+          <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+        </form>
+      </td>
+    </tr>
+    {% else %}
+    <tr>
+      <td colspan="5">No files uploaded yet.</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% if total_pages > 1 %}
+<nav>
+  <ul class="pagination">
+    <li class="page-item {% if page <= 1 %}disabled{% endif %}">
+      <a class="page-link" href="{{ url_for('UploadsView.list_files', page=page-1, sort_by=sort_by, sort_dir=sort_dir) }}">Previous</a>
+    </li>
+    {% for p in range(1, total_pages + 1) %}
+    <li class="page-item {% if p == page %}active{% endif %}">
+      <a class="page-link" href="{{ url_for('UploadsView.list_files', page=p, sort_by=sort_by, sort_dir=sort_dir) }}">{{ p }}</a>
+    </li>
+    {% endfor %}
+    <li class="page-item {% if page >= total_pages %}disabled{% endif %}">
+      <a class="page-link" href="{{ url_for('UploadsView.list_files', page=page+1, sort_by=sort_by, sort_dir=sort_dir) }}">Next</a>
+    </li>
+  </ul>
+</nav>
+{% endif %}
+{% endblock %}
