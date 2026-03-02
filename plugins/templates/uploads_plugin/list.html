@@ -93,6 +93,9 @@
       <td>{{ file.size }}</td>
       <td>{{ file.created }}</td>
       <td>
+        <a href="{{ url_for('UploadsView.preview_file', filename=file.name) }}" class="btn btn-info btn-sm">
+          Preview
+        </a>
         <a href="{{ url_for('UploadsView.download_file', filename=file.name) }}" class="btn btn-primary btn-sm">
           Download
         </a>
