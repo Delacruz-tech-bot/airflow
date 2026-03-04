@@ -34,6 +34,9 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 WTF_CSRF_ENABLED = True
 WTF_CSRF_TIME_LIMIT = None
 
+# Maximum upload file size (500 MB)
+MAX_CONTENT_LENGTH = 500 * 1024 * 1024
+
 # ----------------------------------------------------
 # AUTHENTICATION CONFIG
 # ----------------------------------------------------
