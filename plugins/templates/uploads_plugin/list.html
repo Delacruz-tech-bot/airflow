@@ -29,15 +29,134 @@
     font-size: 0.75em;
     margin-left: 4px;
   }
+
+  /* ── Upload Progress Modal ── */
+  #upload-modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+  }
+  #upload-modal-overlay.active {
+    display: flex;
+  }
+  #upload-modal {
+    background: #fff;
+    border-radius: 12px;
+    padding: 32px 36px;
+    width: 420px;
+    max-width: 92vw;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.28);
+    animation: modal-pop 0.22s cubic-bezier(.34,1.56,.64,1);
+  }
+  @keyframes modal-pop {
+    from { transform: scale(0.82); opacity: 0; }
+    to   { transform: scale(1);    opacity: 1; }
+  }
+  #upload-modal h5 {
+    margin: 0 0 6px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1a1a2e;
+  }
+  #upload-modal .filename-label {
+    font-size: 0.85rem;
+    color: #555;
+    margin-bottom: 18px;
+    word-break: break-all;
+  }
+  .upload-progress-track {
+    background: #e9ecef;
+    border-radius: 50px;
+    height: 18px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  #upload-progress-bar {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #28a745, #5cb85c);
+    border-radius: 50px;
+    transition: width 0.25s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  #upload-progress-bar::after {
+    content: '';
+    position: absolute;
+    top: 0; left: -60%;
+    width: 50%;
+    height: 100%;
+    background: rgba(255,255,255,0.35);
+    animation: shimmer 1.4s infinite;
+  }
+  @keyframes shimmer {
+    to { left: 120%; }
+  }
+  #upload-status-text {
+    margin-top: 14px;
+    font-size: 0.9rem;
+    color: #1a1a2e;
+    font-weight: 500;
+    text-align: center;
+  }
 </style>
 
-<!-- Upload Form -->
-<form class="upload-form" action="{{ url_for('UploadsView.upload_file') }}" method="POST" enctype="multipart/form-data">
+<!-- Upload Progress Modal -->
+<div id="upload-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="upload-modal-title">
+  <div id="upload-modal">
+    <h5 id="upload-modal-title">⬆️ Uploading File…</h5>
+    <div class="filename-label" id="upload-filename"></div>
+    <div class="upload-progress-track">
+      <div id="upload-progress-bar"></div>
+    </div>
+    <div id="upload-status-text">Uploading…</div>
+  </div>
+</div>
+
+<!-- Upload Form — submits normally (native browser POST) -->
+<form id="upload-form" class="upload-form"
+      action="{{ url_for('UploadsView.upload_file') }}"
+      method="POST" enctype="multipart/form-data">
   <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
   <label for="file"><strong>Upload a file:</strong></label>
   <input type="file" name="file" id="file" accept=".csv,.xls,.xlsx" required />
-  <button type="submit" class="btn btn-success btn-sm">Upload</button>
+  <button type="submit" id="upload-btn" class="btn btn-success btn-sm">Upload</button>
 </form>
+
+<script>
+(function () {
+  var form    = document.getElementById('upload-form');
+  var overlay = document.getElementById('upload-modal-overlay');
+  var bar     = document.getElementById('upload-progress-bar');
+  var statusEl = document.getElementById('upload-status-text');
+  var fnameEl  = document.getElementById('upload-filename');
+
+  form.addEventListener('submit', function () {
+    /* Don't preventDefault — let the browser POST the form normally */
+    var fileInput = document.getElementById('file');
+    if (!fileInput.files.length) return;
+
+    fnameEl.textContent = fileInput.files[0].name;
+    bar.style.width = '0%';
+    statusEl.textContent = 'Uploading…';
+    overlay.classList.add('active');
+
+    /* Animate the bar while upload is in progress */
+    var progress = 0;
+    setInterval(function () {
+      if (progress < 90) {
+        progress += Math.random() * 8;
+        if (progress > 90) progress = 90;
+        bar.style.width = Math.round(progress) + '%';
+      }
+    }, 300);
+  });
+})();
+</script>
 
 <!-- Flash messages -->
 {% with messages = get_flashed_messages(with_categories=true) %}
