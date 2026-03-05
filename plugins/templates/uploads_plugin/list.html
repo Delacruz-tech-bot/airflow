@@ -140,20 +140,28 @@
     var fileInput = document.getElementById('file');
     if (!fileInput.files.length) return;
 
-    fnameEl.textContent = fileInput.files[0].name;
+    var file = fileInput.files[0];
+    fnameEl.textContent = file.name;
     bar.style.width = '0%';
     statusEl.textContent = 'Uploading…';
     overlay.classList.add('active');
 
-    /* Animate the bar while upload is in progress */
-    var progress = 0;
-    setInterval(function () {
-      if (progress < 90) {
-        progress += Math.random() * 8;
-        if (progress > 90) progress = 90;
+    /* Animate the bar based on 10MB/s speed */
+    var totalSize = file.size;
+    var speedBps = 100 * 1024 * 1024; // 10MB per second
+    var uploaded = 0;
+    var intervalMs = 200;
+    var increment = speedBps * (intervalMs / 1000);
+
+    var animId = setInterval(function () {
+      if (uploaded < totalSize * 0.9) {
+        uploaded += increment;
+        var progress = Math.min(90, (uploaded / totalSize) * 100);
         bar.style.width = Math.round(progress) + '%';
+      } else {
+        clearInterval(animId);
       }
-    }, 300);
+    }, intervalMs);
   });
 })();
 </script>
