@@ -392,7 +392,7 @@
     <form id="upload-form" action="{{ url_for('UploadsView.upload_file') }}" method="POST" enctype="multipart/form-data">
       <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
       <div class="upload-form-wrapper">
-        <input type="file" name="file" id="file" accept=".csv,.xls,.xlsx" required />
+        <input type="file" name="file" id="file" accept=".csv,.xls,.xlsx,.json" required />
         <button type="submit" id="upload-btn" class="btn-custom btn-upload">
           <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path></svg>
           Upload File

@@ -1,4 +1,5 @@
 import os
+import json
 import math
 from datetime import datetime
 from airflow.plugins_manager import AirflowPlugin
@@ -7,7 +8,7 @@ from flask import Blueprint, send_from_directory, request, flash, redirect, url_
 from werkzeug.utils import secure_filename
 
 UPLOADS_DIR = os.path.join(os.path.expanduser("~"), "airflow", "uploads")
-ALLOWED_EXTENSIONS = {".csv", ".xls", ".xlsx"}
+ALLOWED_EXTENSIONS = {".csv", ".xls", ".xlsx", ".json"}
 PER_PAGE = 10
 
 # Ensure uploads directory exists
@@ -112,7 +113,27 @@ class UploadsView(AppBuilderBaseView):
             return redirect(url_for("UploadsView.list_files"))
 
         ext = os.path.splitext(safe_name)[1].lower()
+
+        # JSON preview — render as formatted plain text
+        if ext == ".json":
+            try:
+                with open(filepath, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                json_text = json.dumps(data, indent=2, ensure_ascii=False)
+            except Exception as e:
+                flash(f"Error reading JSON file: {e}", "danger")
+                return redirect(url_for("UploadsView.list_files"))
+
+            return self.render_template(
+                "uploads_plugin/preview_json.html",
+                filename=safe_name,
+                json_text=json_text,
+            )
+
+        # Tabular preview (CSV / Excel)
         try:
+            import pandas as pd
+
             if ext == ".csv":
                 df = pd.read_csv(filepath, nrows=100)
             elif ext in (".xls", ".xlsx"):
