@@ -156,6 +156,32 @@ class UploadsView(AppBuilderBaseView):
             total_rows=total_rows,
         )
 
+    @expose("/save_json/<filename>", methods=["POST"])
+    def save_json(self, filename):
+        safe_name = secure_filename(filename)
+        filepath = os.path.join(UPLOADS_DIR, safe_name)
+        if not os.path.isfile(filepath):
+            flash(f"File '{filename}' not found.", "warning")
+            return redirect(url_for("UploadsView.list_files"))
+
+        content = request.form.get("content", "")
+        try:
+            # Validate & re-format
+            data = json.loads(content)
+            formatted = json.dumps(data, indent=2, ensure_ascii=False)
+        except json.JSONDecodeError as e:
+            flash(f"Invalid JSON: {e}", "danger")
+            return redirect(url_for("UploadsView.preview_file", filename=safe_name))
+
+        try:
+            with open(filepath, "w", encoding="utf-8") as f:
+                f.write(formatted)
+            flash(f"File '{safe_name}' saved successfully.", "success")
+        except Exception as e:
+            flash(f"Error saving file: {e}", "danger")
+
+        return redirect(url_for("UploadsView.preview_file", filename=safe_name))
+
     @expose("/download/<filename>")
     def download_file(self, filename):
         return send_from_directory(UPLOADS_DIR, filename, as_attachment=True)
