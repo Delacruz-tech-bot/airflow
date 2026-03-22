@@ -1,0 +1,14 @@
+{% extends "airflow/main.html" %}
+
+{% block content %}
+<div style="margin-bottom: 15px;">
+  <a href="{{ url_for('UploadsView.list_files') }}" class="btn btn-secondary btn-sm">&larr; Back to Uploads</a>
+</div>
+
+<h2>Preview: {{ filename }}</h2>
+<p class="text-muted">JSON content (plain text)</p>
+
+<div style="overflow: auto; max-height: 600px; background: #f5f5f5; border: 1px solid #dee2e6; border-radius: 6px; padding: 16px;">
+  <pre style="margin: 0; white-space: pre-wrap; word-wrap: break-word; font-size: 0.9rem;">{{ content }}</pre>
+</div>
+{% endblock %}

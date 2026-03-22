@@ -123,7 +123,7 @@
       method="POST" enctype="multipart/form-data">
   <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
   <label for="file"><strong>Upload a file:</strong></label>
-  <input type="file" name="file" id="file" accept=".csv,.xls,.xlsx" required />
+  <input type="file" name="file" id="file" accept=".csv,.xls,.xlsx,.json" required />
   <button type="submit" id="upload-btn" class="btn btn-success btn-sm">Upload</button>
 </form>
 
